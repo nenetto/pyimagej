@@ -27,7 +27,7 @@ class RunCmd(threading.Thread):
             self.p.kill()      #use self.p.terminate() if process dont needs a kill -9
             self.join()
 
-class Imagej(object):
+class ImageJ(object):
     '''imagej Class
         This class is an abstraction for an instance of ImageJ
         It allows for calling macros from a python script
@@ -54,7 +54,7 @@ class Imagej(object):
 
         RunCmd(cmdline, timeout).Run()
 
-class MacroImageJ(imagej):
+class MacroImageJ(ImageJ):
     '''macroImageJ Class
         This class is an abstraction for an instance of an imagej macro
         It allows for calling macros from a python script.
