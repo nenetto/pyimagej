@@ -6,7 +6,7 @@ __author__ = 'Eugenio Marinetto'
 
 setup(
     name='pyimagej',
-    version="1.0",
+    version="1.0.7",
     packages=find_packages(),
     install_requires=['ctk_cli'],
     author='Eugenio Marinetto',
