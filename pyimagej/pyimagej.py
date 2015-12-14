@@ -62,7 +62,7 @@ class MacroImageJ(ImageJ):
     '''
 
     def __init__(self, imagejPath, macroPath, xmlDefinition, defaultTimeout = 60):
-        super(macroImageJ, self).__init__(imagejPath)
+        super(MacroImageJ, self).__init__(imagejPath)
         self._macroPath = macroPath
         self._xmlDefinition = xmlDefinition
         self.readXmlDefinition()
